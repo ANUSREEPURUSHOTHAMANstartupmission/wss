@@ -31,7 +31,7 @@
 >
 	{#each programs as program}
 		<SwiperSlide>
-			<div class="card" style="background-image: url('/img/{program.image}');"></div>
+			<div class="card" style="background-image: url('/wss/img/{program.image}');"></div>
 			<div class="card-title text-white" >{program.title}</div>
 		</SwiperSlide>
 	{/each}
