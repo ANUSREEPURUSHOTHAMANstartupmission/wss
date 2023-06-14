@@ -71,7 +71,7 @@
       </nav>
 
       <div class="md:pb-3">
-        <a target="_blank" href="/shelovestech" class="inline-block font-other text-white px-4 md:px-8 py-3 bg-red-600 hover:bg-red-500">She Loves Tech India</a>
+        <a target="_blank" href="/wss/shelovestech" class="inline-block font-other text-white px-4 md:px-8 py-3 bg-red-600 hover:bg-red-500">She Loves Tech India</a>
       </div>
     </div>
 
