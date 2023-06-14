@@ -2,7 +2,7 @@
  <section class="bg-black px-10 py-2 flex justify-between border-b border-white shadow">
 	<div class="flex justify-between items-center w-full">
 	  <div class="flex items-center">
-		<img src="/img/logo-white.svg"  alt="" class="h-14">
+		<img src="/wss/img/logo-white.svg"  alt="" class="h-14">
 		<a href="https://startupmission.kerala.gov.in" target="_blank" class="inline-block ml-4 pl-4 text-white text-lg py-3 border-l-2">
 		  Connect with Us
 		</a>
