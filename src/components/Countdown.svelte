@@ -1,4 +1,4 @@
-<script>
+<script is:inline>
 	import {onMount} from 'svelte';
 
 	export let date;

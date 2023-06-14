@@ -1,0 +1,148 @@
+---
+import Countdown from "../components/Countdown.svelte";
+import TimelineItem from "../components/TimelineItem.svelte";
+import Layout from "../layouts/Layout.astro";
+
+--- 
+<Layout>
+  <section class="md:py-24 py-10 px-5 flex flex-col items-center justify-end md:min-h-screen h-[50vh]">
+    <div class="md:absolute -z-20 md:bg-cover bg-contain bg-center bg-no-repeat w-full md:h-full h-[50vh] top-0 left-0" style="background-image:url('/wss/img/slt.jpeg')"></div>  
+    <div class="text-center">
+      <a target="_blank" href="https://apply.shelovestech.org/" class="font-other px-10 py-5 bg-red-600 hover:bg-red-500 text-white">Apply for She Loves Tech</a>    
+    </div>
+  </section>
+  
+  <section class="py-24 px-5">
+    <div class="container mx-auto">
+  
+      <div class="w-16 h-1 mb-3 bg-red-500"></div>
+      <div class="text-3xl font-bold mb-5">She Loves Tech India 2022</div>
+  
+      <div class="text-justify mb-3">
+        Kerala Startup Mission (KSUM) is the nodal government organization for promoting the startups in the state of Kerala. KSUM plays a pivotal role in development, orchestrating every piece of a vibrant Startup ecosystem. The Ecosystem is prioritized in such a way that it caters technologies to create developmental interventions for the community. Creating a DIY culture at schools stimulates grass root level impact, which further on gets handheld by Mini FAB labs and IEDCs at colleges thereby resulting in having passion to create entrepreneurs and innovators who adapt with latest technologies and unicorns at home.
+      </div>
+  
+      <div class="text-justify mb-3">
+        She Loves Tech is a global platform committed to closing the funding gap for women entrepreneurs. It is the world’s largest startup competition for women and technology, seeking out and accelerating the best entrepreneurs and technology for transformative impact.
+      </div>
+  
+    </div>
+  </section>
+  
+  <section class="py-24 px-5 relative" >
+    <div class="absolute -z-20 bg-fixed bg-center bg-no-repeat w-full h-full top-0 left-0" style="background-image:url('/wss/img/timer-img.png')"></div>  
+    <div class="absolute -z-10 bg-black bg-opacity-50 w-full h-full top-0 left-0"></div>
+    <div class="container mx-auto">
+      <div class="mb-5 text-center text-white text-4xl font-black font-other">
+        National Grand Challenge
+      </div>
+      <Countdown date="2022-09-23T09:00"></Countdown>
+    </div>
+  </section>
+  
+  <section class="py-24 px-5 relative" >
+    <div class="container mx-auto text-justify">
+      <div class="w-16 h-1 mb-3 bg-red-500"></div>
+      <div class="text-4xl font-bold mb-5">Who Can Participate?</div>
+  
+      <div class="mb-3">
+        <div class="flex items-center space-x-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checkbox w-12 h-12 text-red-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <polyline points="9 11 12 14 20 6"></polyline>
+            <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"></path>
+          </svg>
+          <div class="text-2xl uppercase">Stage</div>
+        </div>
+        <div class="pl-20 mb-3 text-xl text-gray-700">
+          Seeking seed, angel or A round funding (under US$5M) with at least a minimum viable product (past conceptual stage) 
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="flex items-center space-x-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checkbox w-12 h-12 text-red-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <polyline points="9 11 12 14 20 6"></polyline>
+            <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"></path>
+          </svg>
+          <div class="text-2xl uppercase">Focus / Gender Lens</div>
+        </div>
+        <div class="pl-20 mb-3 text-xl text-gray-700">
+          <div>- At least ONE (1) female entrepreneur in founding team who is using technology to solve a problem</div>
+          
+          <div class="font-bold py-5">OR</div>
+  
+          <div>- Any entrepreneur (male or female) who is using technology to impact women positively</div>
+  
+          <ul class="list-disc ml-10">
+            <li>Are a significant proportion of end-users or consumers female?</li>
+            <li>Are products specifically designed with women users in mind?</li>
+            <li>Does the product itself address a problem that disproportionately affects women?</li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="mb-3">
+        <div class="flex items-center space-x-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checkbox w-12 h-12 text-red-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <polyline points="9 11 12 14 20 6"></polyline>
+            <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9"></path>
+          </svg>
+          <div class="text-2xl uppercase">Technology</div>
+        </div>
+        <div class="pl-20 mb-3 text-xl text-gray-700">
+          All startups must be technology-based startups. For the avoidance of doubt, technology is defined as the use of science and innovation to invent useful things or to solve problems. This extends beyond digital, information or internet-based technology and covers everything from hardware to the creation of new products and solutions to existing problems.
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="pb-24 px-5 relative">
+    <div class="container mx-auto">
+      <div class="w-16 h-1 mb-3 bg-red-500"></div>
+      <div class="text-4xl font-bold mb-5">Roadmap</div>
+  
+      <div class="flex items-center justify-center py-10">
+        <div class="">
+          <ol class="relative border-l-4 border-red-500 leading-loose">
+  
+            <TimelineItem date="15th June '22" title="Registration Open" ></TimelineItem>
+            <TimelineItem date="June - August'22" title="Pre competition events & activations" ></TimelineItem>
+            <TimelineItem date="12th September '22" title="Registration Closes" ></TimelineItem>
+            <TimelineItem date="September'22" title="Screening/ Shortlisting of Startups" ></TimelineItem>
+            <TimelineItem date="September'22" title="Mentorship Program for Shortlisted Startups" ></TimelineItem>
+            <TimelineItem date="23rd Septemeber'22" title="India National Grand Challenge" ></TimelineItem>
+            
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="py-24 px-5 relative" >
+    <div class="absolute -z-20 bg-cover bg-center bg-no-repeat w-full h-full top-0 left-0" style="background-image:url('/wss/img/tickets.png')"></div>  
+    <!-- <div class="absolute -z-10 bg-black bg-opacity-50 w-full h-full top-0 left-0"></div> -->
+    <div class="container mx-auto">
+      <div class="mb-5 text-white text-4xl font-black font-other">
+        REGISTER NOW
+      </div>
+      <ul class="text-white max-w-4xl mb-5">
+        <li>Do you have a startup with an MVP and have raised less than 5 million USD?</li>
+        <li>Do you have an early-stage startup with either a tech product largely impacting women, a female founder or both?</li>
+        <li class="mb-5">Do you want to take your startup to the next level?</li>
+  
+        <li>If your answer is yes</li>
+      </ul>
+  
+      <a target="_blank" href="https://apply.shelovestech.org/" class="inline-block font-other px-10 py-5 bg-red-600 hover:bg-red-500 text-white">Apply for She Loves Tech</a>
+  
+    </div>
+  </section>
+  
+  <style>
+    /* :global(body){
+      background-color: black;
+    } */
+  </style>
+</Layout>
