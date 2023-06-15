@@ -56,7 +56,12 @@
 				  </a>
 				</div>
 			</div>
-		  </div>
+		</div>
+		<div class="relative inline-block text-left z-10">
+			<a target="_blank" href="https://forms.zohopublic.com/keralastartupmission/form/WOMENSTARTUPSUMMIT5O2023/formperma/BpxTdb5GjId36n61eFW5ZBSFsLCbFae_xUSriLEDbpo" class="inline-flex justify-center w-full text-white hover:bg-slate-900  px-5 py-3 text-sm font-medium " id="menu-button" aria-expanded="true" aria-haspopup="true">
+				Sign Up for Updates
+			</a>
+		</div>
 		
 	  </div>
   
